@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transportation</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f6f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #1976d2;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #0d47a1;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffeb3b;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 30px auto;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .transport-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 25px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .card h2 {
+            color: #1976d2;
+        }
+
+        .card p {
+            line-height: 1.6;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #1976d2;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #0d47a1;
+        }
+
+        footer {
+            background-color: #0d47a1;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Transportation</h1>
+        <p>Explore different modes of transportation</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#transport">Transport</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container" id="home">
+
+        <div class="intro">
+            <h2>Welcome to Transportation Services</h2>
+            <p>
+                Transportation helps people and goods move from one place
+                to another quickly and safely.
+            </p>
+        </div>
+
+        <div class="transport-grid" id="transport">
+
+            <div class="card">
+                <h2>🚌 Bus</h2>
+                <p>
+                    Buses are an affordable and convenient form of
+                    public transportation.
+                </p>
+                <a href="#" class="button">Learn More</a>
+            </div>
+
+            <div class="card">
+                <h2>🚆 Train</h2>
+                <p>
+                    Trains are useful for traveling long distances
+                    efficiently and comfortably.
+                </p>
+                <a href="#" class="button">Learn More</a>
+            </div>
+
+            <div class="card">
+                <h2>🚕 Taxi</h2>
+                <p>
+                    Taxis provide convenient door-to-door transportation
+                    for passengers.
+                </p>
+                <a href="#" class="button">Learn More</a>
+            </div>
+
+            <div class="card">
+                <h2>🚲 Bicycle</h2>
+                <p>
+                    Bicycles are an eco-friendly and healthy way
+                    to travel short distances.
+                </p>
+                <a href="#" class="button">Learn More</a>
+            </div>
+
+        </div>
+    </div>
+
+    <footer id="contact">
+        <p>&copy; 2026 Transportation Website | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
